@@ -1,7 +1,7 @@
 from selenium import webdriver
 
 browser = webdriver.Chrome()
-# говорим WebDriver искать каждый элемент в течение 5 секунд
+# говорим WebDriver искать каждый элемент в течение 15 секунд
 browser.implicitly_wait(5)
 
 browser.get("http://suninjuly.github.io/wait1.html")
